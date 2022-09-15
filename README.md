@@ -15,7 +15,7 @@ git log --all --graph --online
 
 To see all of the commits history.
 
-## Task 1 - Create a new empy repo
+## Task 1 - Create a new empty repo and make a commit
 
 ```bash
 $ cd
@@ -24,7 +24,7 @@ $ cd repos
 $ mkdir kata
 $ cd kata
 $ git init
-$ # create a file named 'hello.txt' containing "Hello, worldd"
+$ # create a file named 'hello.txt' containing "Hello, world"
 $ git add hello.txt
 $ git commit -m "Initial commit"
 ```
@@ -35,20 +35,37 @@ correct arguments.
 
 Then verify using `git log` that you did create a commit
 
-## Task 2 - Clone this repo
+## Task 2 - Configure an editor
+
+Learn how to configure the text editor used by git - popular choices
+include `VSCode`, `Notepad`, `Notepad++`, `vim`, `nano`, and so on.
+
+Open `hello.txt` and change "Hello, world" to "Hi folks!".
+
+Make sure the changed are saved
+
+Use the command `git status` the assert the presence of the change
+
+Finall, run:
+
+```bash
+$ git add hello.txt
+$ git commit
+```
+
+This time, you should see the `git` command pause and your editor starting.
+
+The commit will be done when you *edit and close* the file containing
+the commit message.
+
+Create a long message spanning sevenral lines, then use `git log` again
+to check everything worked as intended.
+
+## Task 3 - Clone this repo
 
 The first task is to clone this repo in a place where you have *write* access.
 
 You can either fork it on GitHub, or re-create it from scratch on GitLab for instance.
-
-## Task 3 - Simple commit
-
-* Edit a file in this repo
-* Make a change
-* Make sure the changed are saved
-* Use the command `git status` the assert the presence of the change
-* Add the file with `git add <file>`
-* Make a commit with `git commit -m "<message>"`
 
 ## Task 4 - git log, git blame
 
