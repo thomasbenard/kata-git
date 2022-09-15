@@ -59,7 +59,8 @@ dev who is responsible for this !
 
 *Goal: learn how to share a branch across the same team*
 
-Make sure Alice and Bob both have cloned the repo
+Make sure Alice and Bob both have cloned the repo and
+that they both have switched to the `main` branch.
 
 * Alice: add your name to the THANKS
 * Alice: make a commit with the message "Add Alice to THANKS file"
