@@ -7,6 +7,14 @@ You should never use `push --force` or equivalent unless otherwise stated
 You should try and perform all the tasks listed here using the command line first,
 and relying on a GUI later.
 
+At any time, feel free to run:
+
+```
+git log --all --graph --online
+```
+
+To see all of the commits history.
+
 ## Task 1 - Create a new empy repo
 
 ```bash
