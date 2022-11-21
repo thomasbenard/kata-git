@@ -131,7 +131,7 @@ This should be done by each member of the team.
 * Alice: Change the `<title>` in `index.html`
 * Alice: push the changes to the main branch
 * Bob: do *not* fetch Alice's changes
-* Bob: change something in the JavaScript code
+* Bob: change something in the JavaScript code inside the `index.html` file
 * Bob: make a commit and try to push it to the main branch - git will ask
   your to merge first
 * Bob: merge your branch and push the result
@@ -165,10 +165,11 @@ Some as the previous one, but use `rebase` so that there is no merge commit in t
 
 ## Task 11 - Code review using a feature branch
 
+* Alice: switch to a new branch named `feature/stuff`
 * Alice: Add some code in 'index.html'
 * Alice: Make sure to include a small mistake in the code you added
-* Alice: Make a commit and push it in a branch named 'feature/stuff'
-* Alice: Create a merge request (GitLab) or a pull request (GitHub)
+* Alice: Make a commit and push the branch
+* Alice: Create a merge request (GitLab) or a pull request (GitHub, Azure DevOps)
 * Bob: look at Alice's changes and leave some comments about the typo
 * Alice: Use rebase or `git commit --amend` to address Bob's feedback and fix
   the typo (you are allowed to use `push --force` this time)
