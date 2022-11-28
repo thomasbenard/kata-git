@@ -10,7 +10,7 @@ and relying on a GUI later.
 At any time, feel free to run:
 
 ```
-git log --all --graph --online
+git log --all --graph --oneline
 ```
 
 To see all of the commits history.
