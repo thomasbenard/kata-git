@@ -87,7 +87,7 @@ dev who is responsible for this !
 Make sure Alice and Bob both have cloned the repo and
 that they both have switched to the `main` branch.
 
-* Alice: add your name to the THANKS
+* Alice: add your name to the THANKS file
 * Alice: make a commit with the message "Add Alice to THANKS file"
 * Alice: push the commit to the main branch
 * Bob: get Alice's changes from the main branch (using `fetch` and `merge` for instance)
