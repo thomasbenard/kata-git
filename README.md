@@ -58,7 +58,15 @@ This time, you should see the `git` command pause and your editor starting.
 The commit will be done when you *edit and close* the file containing
 the commit message.
 
-Create a long message spanning sevenral lines, then use `git log` again
+Create a long message spanning several lines:
+
+```
+Replace "hello world" with "hi folks"
+
+Use more inclusive language
+```
+
+then use `git log` again
 to check everything worked as intended.
 
 ## Task 3 - Clone this repo
